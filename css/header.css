@@ -1,0 +1,72 @@
+.header-bg {
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu-itens {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  gap: 50px;
+}
+
+.menu-itens a {
+  display: inline-block;
+  padding: 15px 0;
+  position: relative;
+}
+
+.menu-itens a:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  background: var(--corGreen--5);
+  margin-bottom: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.menu-itens a:hover:after {
+  width: 100%;
+}
+@media (max-width: 650px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h1Introducao {
+    display: none;
+  }
+
+  .menu-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu-itens a {
+    color: rgb(190, 163, 10);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .menu-itens a:hover {
+    background-color: rgb(8, 112, 14);
+    color: rgb(224, 215, 159);
+
+    transition: 0.5s;
+  }
+  .header a:after {
+    display: none;
+  }
+}

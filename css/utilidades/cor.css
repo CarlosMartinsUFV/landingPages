@@ -1,0 +1,46 @@
+:root {
+  --corPurple--4: rebeccapurple;
+  --corGold--5: rgb(196, 175, 58);
+  --corGreen--5: rgb(11, 92, 15);
+  --corBlue--5: rgb(12, 18, 71);
+  --corGray--1: #c0c0c023;
+  --corgreen--4: rgb(49, 180, 56);
+}
+
+.color-gold5 {
+  color: var(--corGold--5);
+}
+
+.color-purple {
+  color: var(--corPurple--4);
+}
+.color-blue5 {
+  color: var(--corBlue--5);
+}
+.color-green5 {
+  color: var(--corGreen--5);
+}
+
+.color-green4 {
+  color: var(--corgreen--4);
+}
+
+.color-gray5 {
+  color: var(--xorBlue--5);
+}
+
+.color-gray1 {
+  color: var(--corGray--1);
+}
+
+.bg-gray1 {
+  background: var(--corGray--1);
+}
+
+.bg-green5 {
+  background: var(--corGreen--5);
+}
+
+.bg-blue5 {
+  background-color: var(--corBlue--5);
+}

@@ -1,0 +1,26 @@
+.botao {
+  display: inline-block;
+  font-size: 20px;
+  padding: 15px;
+  font-weight: bolder;
+  background-color: rgb(148, 73, 223);
+  box-shadow: 0 0 10px rgb(230, 221, 221);
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: max-content;
+  color: white;
+}
+
+.botao:hover {
+  transition: 0.5s;
+  background: rgb(109, 53, 165);
+}
+
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

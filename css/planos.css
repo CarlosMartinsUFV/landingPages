@@ -1,0 +1,87 @@
+.planos-bg {
+  background-color: rgba(213, 213, 216, 0.308);
+}
+
+.planos-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  z-index: 1;
+  margin-bottom: 75px;
+}
+
+.planos-bg h2 {
+  text-align: center;
+  padding: 50px;
+}
+.plano-card {
+  margin: 10px;
+  margin-bottom: 30px;
+  background: white;
+  padding: 50px;
+  box-shadow: 4px 0px 4px rgba(213, 213, 216, 0.801);
+  transition: 0.5s;
+}
+
+.plano-card:hover {
+  transform: scale(1.15);
+  transition: 0.6s;
+  z-index: 10;
+  box-shadow: -4px 0px 4px rgba(213, 213, 216, 0.801),
+    4px 0px 4px rgba(213, 213, 216, 0.801);
+}
+
+.plano-card:hover #h3fontPrata {
+  transform: 0.6s;
+  color: #c0c0c0;
+}
+.plano-card:hover #h3fontGold {
+  transform: 0.6s;
+  color: gold;
+}
+.plano-card:hover #h3fontDiamond {
+  transform: 0.6s;
+  color: #0abab5;
+}
+.plano-card h3 {
+  margin-bottom: 15px;
+}
+.pInvestimentos-planos {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.h3font-planos {
+  font-size: 35px;
+}
+.lista-plano {
+  margin-top: 15px;
+  font-weight: 400;
+}
+.items-plano {
+  padding: 5px;
+}
+.serviços-disponiveis-planos {
+  display: block;
+  padding: 10px;
+}
+
+.saibaMais {
+  display: block;
+  padding-top: 25px;
+  color: var(--corBlue--5);
+  font-size: 18px;
+  font-weight: bolder;
+}
+.saibaMais:hover {
+  color: blueviolet;
+  transition: 0.3s;
+}
+
+.item-anterior-plano {
+  color: rgb(8, 172, 30);
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+}

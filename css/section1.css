@@ -1,0 +1,27 @@
+.section1-bg {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-section img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 5px 5px var(--corBlue--5);
+}
+
+.section-conteudo {
+  margin-left: 20px;
+  padding: 25px;
+}
+
+.section-conteudo p {
+  margin-top: 25px;
+  text-align: justify;
+}
