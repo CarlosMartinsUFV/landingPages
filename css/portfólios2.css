@@ -1,0 +1,57 @@
+.portfolios-bg {
+  /* background-color: rebeccapurple; */
+}
+.portfolio {
+  /* background-color: black; */
+}
+.portfolio h2 {
+  padding: 50px;
+  line-height: 2.2rem;
+  max-width: 70ch;
+  color: var(--corPurple--4);
+}
+
+.ponto {
+  font-size: 50px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cards-investimentos {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.cards-investimentos h3 {
+  display: flex;
+  margin-bottom: 15px;
+  color: white;
+  background-color: rgb(126, 199, 17);
+  width: max-content;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 40px;
+  margin-left: 100px;
+}
+.portfolio-item {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--corBlue--5);
+}
+
+.portfolio-item:nth-child(odd) {
+  border-bottom: 1px solid rgba(32, 32, 32, 0.938);
+}
+
+.portfolio-item::before {
+  content: "";
+  background-color: orange;
+  display: inline-block;
+  width: 12px;
+  height: 5px;
+}

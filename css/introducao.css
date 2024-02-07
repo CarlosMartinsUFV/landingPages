@@ -50,6 +50,10 @@ padding: 20px;
 
 .section1-bg {
   padding-bottom: 100px;
+  background-color: var(--corBlue--5);
+  color: white;
+
+ 
 }
 
 /* .section1 {
